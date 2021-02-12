@@ -1,0 +1,15 @@
+This is a React Native App
+
+
+Open the project and you must have intstalled React Native Expo.
+To install React Native Expo:
+
+npm install --global expo-cli
+
+Than run with command:
+
+expo start
+
+Click on the link and scan the QR code with your phone to come directly to view the application:
+
+https://expo.io/@hampusolausson/projects/react-native-test
