@@ -8,9 +8,11 @@ To install React Native Expo:
 Than run command:
 
 - expo start or npm start
+- Than click: Run in web browser
 
 To view the application with your phone: 
-- Download the app Expo.js.
+
+- Download the app Expo.js
 - Click on the link below
 - Scan the QR code with your phone to view the application:
 

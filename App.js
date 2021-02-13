@@ -1,14 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
 import axios from 'axios';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, SafeAreaView, Button } from 'react-native';
 
 export default function App() {
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Hello World</Text>
-    </View>
+    <SafeAreaView style={styles.container}>
+      <Text numberOfLines={1} style={styles.title}>Hello World</Text>
+      <Button title="Register" onPress={() => alert('Registration successful')}></Button>
+    </SafeAreaView>
   );
 }
 
@@ -22,6 +23,6 @@ const styles = StyleSheet.create({
   title: {
     color: '#fff',
     fontSize: 20,
-    
   }
+
 });
